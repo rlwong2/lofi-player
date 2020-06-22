@@ -1,7 +1,13 @@
 import * as React from "react";
+import ReactPlayer from 'react-player';
 
-export function Player() {
+
+function Player(props) {
         return(
-            <div>Player</div>
+            <div>
+                <ReactPlayer url={props.video_url} />
+            </div>
         ) 
 }
+
+export default Player;

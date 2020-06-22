@@ -21,15 +21,18 @@
   },
   "homepage": "https://github.com/rlwong2/lofi-player#readme",
   "dependencies": {
+    "@babel/runtime": "^7.10.3",
     "axios": "^0.19.2",
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
+    "react-player": "^2.3.1",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-react": "^7.10.1",
     "babel-cli": "^6.26.0",
