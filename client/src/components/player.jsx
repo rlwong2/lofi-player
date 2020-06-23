@@ -10,7 +10,7 @@ function Player(props) {
                     config={{
                         youtube: {
                           playerVars: { showinfo: 0, autoplay: 1 }
-                        }
+                        },
                       }}
                 />
             </div>
