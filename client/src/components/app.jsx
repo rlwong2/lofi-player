@@ -14,7 +14,7 @@ function App() {
         let result = await axios.get(`https://www.googleapis.com/youtube/v3/videos?part=id%2C+snippet&id=${video_id}&key=${key}`)
         console.log(result.data.items[0].snippet.title)
 
-        setVideo_url(`https://www.youtube.com/embed/${result.data.items[0].id}`);
+        setVideo_url(`https://www.youtube.com/embed/${result.data.items[0].id}?&autoplay=1`);
         setVideo_id(result.data.items[0].id);
         setVideo_title(result.data.items[0].snippet.title);
         
